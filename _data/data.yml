@@ -66,7 +66,7 @@ education:
       details: |
         Completed a dissertation on self-avoiding random walks on a lattice.
         This involved learning to program in Fortran to generate a large data
-        set of self-avoiding walks and performed statistacal modelling using R
+        set of self-avoiding walks and performing statistical modelling using R
         to analyse end to end distance.
 
     - degree: A Levels
