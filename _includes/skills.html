@@ -9,10 +9,10 @@
     </span>
     {{ skills.title }}
   </h2>
-
+{% for skill in skills.toolset %}
   <div class="item">
 
-    {% for skill in skills.toolset %}
+
     <div class="meta">
 
       <h3 class="job-title">{{ skill.name }}</h3>
