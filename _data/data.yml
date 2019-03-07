@@ -110,7 +110,6 @@ experiences:
 
 projects:
     title: Projects
-    intro: >
 
     assignments:
       - title: MakersRich
@@ -123,7 +122,7 @@ projects:
 
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills
 
     toolset:
       - name: Programming languages, frameworks and methodologies
