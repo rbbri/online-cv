@@ -10,7 +10,7 @@
     {{ skills.title }}
   </h2>
 
-  <div class="skillset">
+  <div class="item">
 
     {% for skill in skills.toolset %}
     <div class="meta">
@@ -22,10 +22,10 @@
         {{ skill.details | markdownify }}
     </div><!--//details-->
 
-    <!--//item-->
+  </div><!--//item-->
     {% endfor %}
 
-  </div>
+
 
 </section><!--//skills-section-->
 {% endif %}
