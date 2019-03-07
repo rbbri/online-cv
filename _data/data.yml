@@ -4,7 +4,7 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Robin Johnson
@@ -58,7 +58,7 @@ education:
       time: 2012 - 2013
       details: |
         Wrote a masters level dissertation on the use of mobile technology in
-        the Mathematics classroom
+        the Mathematics classroom.
 
     - degree: BSc in Mathematics with Finance
       university: University of Leeds
@@ -91,9 +91,9 @@ experiences:
       details: |
         Responsible for the assessment, curriculum design and delivery of
         courses including:
-          - A Level Mathematics.
-          - Core Mathematics.
-          - GCSE Mathematics.
+          - A Level Mathematics
+          - Core Mathematics
+          - GCSE Mathematics
 
     - role: Teacher, GCSE Mathematics Course Lead
       time: 2013 - 2017
@@ -127,7 +127,7 @@ skills:
 
     toolset:
       - name: Programming languages, frameworks and methodologies
-        details:
+        details: |
           - Object oriented programming using Ruby, JavaScript, Python
           - Full stack web development using Rails, Sinatra, React, Node.js, PostgresSQL, Firebase
           - Test-driven development using Rspec, Capybara, Jasmine, Jest, Mocha, Enzyme
