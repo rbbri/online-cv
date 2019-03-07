@@ -3,8 +3,8 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Robin Johnson
@@ -128,6 +128,7 @@ skills:
     toolset:
       - name: Programming languages, frameworks and methodologies
         details: |
+
           - Object oriented programming using Ruby, JavaScript, Python
           - Full stack web development using Rails, Sinatra, React, Node.js, PostgresSQL, Firebase
           - Test-driven development using Rspec, Capybara, Jasmine, Jest, Mocha, Enzyme
@@ -136,6 +137,7 @@ skills:
 
       - name: Agile Practitioner
         details: |
+
           While working as a Mathematics teacher, I experimented with using the
           eduScrum framework with an A-Level class and used a Kanban board to
           manage the GCSE course team. This resulted in improved outcomes for
@@ -148,6 +150,7 @@ skills:
 
       - name: Coaching & Mentoring
         details: |
+
           Since finishing the course at Makers I have supported other students
           in a role as an assistant coach. This involved performing code
           reviews for students on-site and support the delivery of the
@@ -159,6 +162,7 @@ skills:
 
       - name: Quick Learner & Creative Problem Solver
         details: |
+
           I am an inquisitive, life-long learner and am at my happiest when
           learning something new.
 
