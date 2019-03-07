@@ -12,21 +12,21 @@
 {% for skill in skills.toolset %}
   <div class="skillset">
 
-
-    <div class="meta">
-      <div class="upper-row">
-        <h3 class="skills-title">{{ skill.name }}</h3>
+    <div class="item">
+      <div class="meta">
+        <div class="upper-row">
+          <h3 class="skills-title">{{ skill.name }}</h3>
+        </div>
       </div>
-    </div>
 
-    <div class="details">
+      <div class="details">
 
-        {{ skill.details | markdownify }}
+          {{ skill.details | markdownify }}
 
-    </div><!--//details-->
-
-  </div><!--//item-->
-    {% endfor %}
+        </div><!--//details-->
+      </div>
+    </div><!--//item-->
+      {% endfor %}
 
 
 
