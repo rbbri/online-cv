@@ -18,11 +18,20 @@ sidebar:
 
 
     languages:
-      - idiom: English
-        level: Native
+      - idiom: Object oriented programming
+        level: using Ruby, JavaScript, Python
 
-      - idiom: French
-        level: Conversational
+      - idiom: Full stack web development
+        level: using Rails, Sinatra, React, Node.js, PostgresSQL, Firebase
+        
+      - idiom: Test-driven development
+        level: using Rspec, Capybara, Jasmine, Jest, Mocha, Enzyme
+
+      - idiom: Data analysis and visualisation
+        level: using R and Python
+
+      - idiom: Full stack web development
+        level: Continuous Integration & Deployment using TravisCI, CircleCI, Heroku and Firebase
 
 
     interests:
@@ -101,10 +110,10 @@ experiences:
       details: |
         Developed a wide range of teaching experience including:
           - Collaborating with teachers and managers across departments to
-          implement and administer and online diagnostic and improvement
+          implement and administer an online diagnostic and improvement
           programme for GCSE and Functional Skills students.
           - Producing YouTube videos and an accompanying workbook in order to
-          implement a flipped learning approach to the A-Level Maths course.
+          implement a flipped learning approach to the A-Level course.
           - Organising UKMT Senior Individual and Team Maths Challenges,
           including the BMO and Senior Kangaroo.
 
@@ -125,15 +134,6 @@ skills:
     title: Skills
 
     toolset:
-      - name: Programming languages, frameworks and methodologies
-        details: |
-
-          - Object oriented programming using Ruby, JavaScript, Python
-          - Full stack web development using Rails, Sinatra, React, Node.js, PostgresSQL, Firebase
-          - Test-driven development using Rspec, Capybara, Jasmine, Jest, Mocha, Enzyme
-          - Data analysis and visualisation using R and Python
-          - Continuous Integration & Deployment using TravisCI, CircleCI, Heroku and Firebase
-
       - name: Agile Practitioner
         details: |
 
