@@ -1,6 +1,4 @@
 #Update all the sections by editing the data.yml file inside _data folder.
-gems:
-  - jekyll-pdf
 # Site Settings
 title: Robin Johnson
 url: 'http://webjeda.com'

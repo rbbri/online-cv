@@ -19,6 +19,8 @@
 
   {% include contact.html %}
 
+  {% include language.html %}
+
   {% if sidebar.about %}
     {% include about.html %}
   {% endif %}
@@ -27,10 +29,14 @@
     {% include education.html %}
   {% endif %}
 
+  {% if sidebar.projects %}
+    {% include projects.html %}
+  {% endif %}
 
 
-  {% include language.html %}
-  {% include interests.html %}
+
+
+
 
 
 

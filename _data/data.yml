@@ -3,9 +3,9 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: False # set to False if you want education in main section instead of in sidebar
-
+    projects: True #
     # Profile information
     name: Robin Johnson
     tagline: Full Stack Developer & Mathematics Educator
@@ -23,7 +23,7 @@ sidebar:
 
       - idiom: Full stack web development
         level: using Rails, Sinatra, React, Node.js, PostgresSQL, Firebase
-        
+
       - idiom: Test-driven development
         level: using Rspec, Capybara, Jasmine, Jest, Mocha, Enzyme
 
@@ -123,7 +123,7 @@ projects:
     assignments:
       - title: MakersRich
         link: "https://makerzrich.firebaseapp.com/game"
-        tagline: "An educational multiplayer online RPG, built in 10 days for a final project at Makers"
+        tagline: "An educational multiplayer online RPG, built in 10 days for a final project at Makers."
 
       - title: Test-Sweet
         link: "https://www.npmjs.com/package/test-sweet"
