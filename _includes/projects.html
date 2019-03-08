@@ -1,5 +1,23 @@
 {% assign projects = site.data.data.projects %}
 {% if projects %}
+{% if site.data.data.sidebar.projects %}
+<div class="education-container container-block">
+
+  <h2 class="container-block-title">
+    Projects
+  </h2>
+
+  {% for project in project.assignments %}
+  <div class="item">
+    <h4 class="degree">
+        <a href="{{ project.link }}">{{ project.title }}</a>
+    </h4>
+    <h5 class="meta">{{ project.tagline }}</h5>
+  </div><!--//item-->
+  {% endfor %}
+
+</div><!--//education-container-->
+{% else %}
 <section class="section projects-section">
 
   <h2 class="section-title">
@@ -31,4 +49,5 @@
   {% endfor %}
 
 </section><!--//section-->
+{% endif %}
 {% endif %}

@@ -5,7 +5,7 @@
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: False # set to False if you want education in main section instead of in sidebar
-
+    projects: True #
     # Profile information
     name: Robin Johnson
     tagline: Full Stack Developer & Mathematics Educator
@@ -23,7 +23,7 @@ sidebar:
 
       - idiom: Full stack web development
         level: using Rails, Sinatra, React, Node.js, PostgresSQL, Firebase
-        
+
       - idiom: Test-driven development
         level: using Rspec, Capybara, Jasmine, Jest, Mocha, Enzyme
 
